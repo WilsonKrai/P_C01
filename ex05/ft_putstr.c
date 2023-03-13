@@ -6,7 +6,7 @@
 /*   By: wteles-d <wteles-d@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 15:30:46 by wteles-d          #+#    #+#             */
-/*   Updated: 2023/03/09 16:39:41 by wteles-d         ###   ########.fr       */
+/*   Updated: 2023/03/13 14:06:12 by wteles-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,13 @@
 
 void	ft_putstr(char *str)
 {
-	while (*str != '\0')
+	int	i;
+
+	i = 0;
+	while (str[i] != '\0')
 	{
-		write (1, str, 1);
-		str++;
+		write (1, &str[i], 1);
+		i++;
 	}
 }
 /*

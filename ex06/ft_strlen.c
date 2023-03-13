@@ -6,18 +6,19 @@
 /*   By: wteles-d <wteles-d@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 16:26:06 by wteles-d          #+#    #+#             */
-/*   Updated: 2023/03/09 16:42:03 by wteles-d         ###   ########.fr       */
+/*   Updated: 2023/03/13 14:09:49 by wteles-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
 
 int	ft_strlen(char *str)
 {
 	int	i;
 
 	i = 0;
-	while (*str != '\0')
+	while (str[i] != '\0')
 	{
-		str++;
 		i++;
 	}
 	return (i);
@@ -26,6 +27,11 @@ int	ft_strlen(char *str)
 int	main(void)
 {
 	char tstring[] = "testsizestr";
-	ft_strlen(tstring);
+
+	int	a;
+
+	a = ft_strlen(tstring);
+
+	printf("%d\n", a);
 }
 */

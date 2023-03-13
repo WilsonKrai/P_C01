@@ -6,16 +6,17 @@
 /*   By: wteles-d <wteles-d@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 16:45:31 by wteles-d          #+#    #+#             */
-/*   Updated: 2023/03/09 17:48:00 by wteles-d         ###   ########.fr       */
+/*   Updated: 2023/03/13 14:13:28 by wteles-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-//#include <stdio.h>//
+
+#include <stdio.h>
 
 void	ft_rev_int_tab(int *tab, int size)
 {
 	int	swap;
 	int	i;
-	
+
 	i = 0;
 	swap = 0;
 	while (i < size / 2)
@@ -23,7 +24,7 @@ void	ft_rev_int_tab(int *tab, int size)
 		swap = tab[i];
 		tab[i] = tab[size - 1 - i];
 		tab[size - 1 - i] = swap;
-		i++;	
+		i++;
 	}
 }
 /*

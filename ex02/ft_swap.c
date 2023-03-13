@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wteles-d <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: wteles-d <wteles-d@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 14:47:19 by wteles-d          #+#    #+#             */
-/*   Updated: 2023/03/08 16:33:19 by wteles-d         ###   ########.fr       */
+/*   Updated: 2023/03/13 14:00:53 by wteles-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_swap(int *a, int *b)
 {
